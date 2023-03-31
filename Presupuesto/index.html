@@ -14,72 +14,51 @@
   
     <div id="container" class="d-flex flex-column align-items-center justify-content-center vh-80 gap-3 mb-5 " >
         <h3>Presupuesto Disponible</h3>
-       <div  class="">Ingreso</div>
-       <div class="">Engresos</div>
+        <div>$ 0</div>
+        <nav class="navbar navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">INGRESO</a>
+            <samp>$ 0</samp>
+          </div>
+        </nav>
+
+        <nav class="navbar navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">ENGRESO</a>
+            <samp>$ 0</samp>
+          </div>
+        </nav>
+       
     </div>
 
     <div id="select" class="d-flex flex-column align-items-center justify-content-center vh-80 " >
-       
         <section>
             <div id="mb-3" class="d-flex gap-3 mb-5" >
                 <select name="operador" >
                     <option value="btn btn-outline-danger">+</option>
                     <option value="btn btn-outline-danger">-</option>
                 </select>
-                <input type="text" class="form-control" id="val" placeholder="Ingrese Su Presupuesto">
-                <input type="text" class="form-control" id="pre" placeholder="Ingrese el Valor">
-                <button class="btn btn-outline-danger">Enviar</button>
-              </div>
-              <div id="dinner-register" class="d-flex justify-content-between">
-                <div >ingreso</div>
-                <div>engreso</div>
-              </div>
-              
-
-            <!--<table class="table">
-                <tbody>
-                    <thead>
-                        <tr>
-                          <th scope="col">INGRESO</th>
-                        </tr>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                   
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                   
-                  </tr>
-               
-                </tbody>
-              </table>
-
-              <table class="table">
-                <tbody>
-                    <thead>
-                        <tr>
-                          <th scope="col">ENGRESOS</th>
-                        </tr>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                   
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                   
-                  </tr>
-               
-                </tbody>
-              </table>-->
-
-
-           
+                <input type="text" class="form-control" id="val" placeholder="Agregar Descripcion">
+                <input type="text" class="form-control" id="pre" placeholder="Valor">
+                <button class="btn btn-outline-danger"><img src="/Presupuesto/img/garrapata.png" width="25%"></button>
+            </div>
         </section>
     </div>
+
+    <div id="select" class="d-flex flex-column align-items-center justify-content-center vh-80 " >
+        <section>
+              <div id="mb-4" class="d-flex  gap-2 mb-5">
+                <input type="text" class="form-control" id="val" placeholder="INGRESOS">
+              </div>
+        </section>
+
+        <section>
+          <div id="mb-4" class="d-flex gap-2 mb-5">
+            <input type="text" class="form-control" id="val" placeholder="ENGRESOS">
+          </div>
+        </section>
+
+      </div>
 
 
     
