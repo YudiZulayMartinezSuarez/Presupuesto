@@ -2,7 +2,10 @@ export default{
     datamyContainer(){
         localStorage.setItem("myContainer",JSON.stringify({
             datos:{
-                title:"Presupuesto Disponible"
+                title:"Presupuesto Disponible",
+                dinner: "$0",
+                renevu: "Ingreso",
+                expenses: "Egresos"
             }
         }));
     },
